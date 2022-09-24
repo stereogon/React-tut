@@ -1,17 +1,18 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
-import NavbarCc from "./components/Navbar-classcomponent";
-import NavbarNojsx from "./components/Navbar_nojsx";
+// import NavbarJsx from "./components/Navbar_jsx";
+// import NavbarClassComponent from "./components/Navbar-classcomponent";
+import Counter from "./components/Counter";
 
 function App() {
     return (
         <>
-            <Navbar />
-            <NavbarCc />
-            <NavbarNojsx />
-            <div className="App">
-                <h1>Hello World!</h1>
-            </div>
+            <Counter />
+            {/* <NavbarJsx name="Bruce" heroName="Batman">
+                This is children props
+            </NavbarJsx>
+            <NavbarJsx name="Clark" heroName="Superman" />
+            <NavbarJsx name="Diana" heroName="Wonderwoman" />
+            <NavbarClassComponent name="Chandan"/> */}
         </>
     );
 }

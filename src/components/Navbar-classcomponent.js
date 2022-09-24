@@ -1,8 +1,31 @@
-import React, { Component } from "react";
+import { Component } from "react";
 
 class Navbar extends Component {
+    constructor() {
+        super();
+        this.state = {
+            message: "Welcome Visitor",
+            buttonText: "Subscribe",
+        };
+    }
+
+    myfun() {
+        this.setState({
+            message: "Thanks for Subscribing",
+            buttonText: "Subscribed",
+        });
+    }
+
     render() {
-        return <h1> Class Component </h1>;
+        return (
+            <>
+                <h1>{this.state.message}</h1>
+                <button onClick={() => this.myfun()}>
+                    {this.state.buttonText}
+                </button>
+                <h1> Class Component {this.props.name} </h1>
+            </>
+        );
     }
 }
 
