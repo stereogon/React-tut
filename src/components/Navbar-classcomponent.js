@@ -17,13 +17,14 @@ class Navbar extends Component {
     }
 
     render() {
+        const { name } = this.props;
         return (
             <>
                 <h1>{this.state.message}</h1>
                 <button onClick={() => this.myfun()}>
                     {this.state.buttonText}
                 </button>
-                <h1> Class Component {this.props.name} </h1>
+                <h1> Class Component {name} </h1>
             </>
         );
     }
