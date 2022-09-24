@@ -6,7 +6,7 @@ import Counter from "./components/Counter";
 function App() {
     return (
         <>
-            <Counter />
+            <Counter value={1} />
             {/* <NavbarJsx name="Bruce" heroName="Batman">
                 This is children props
             </NavbarJsx>

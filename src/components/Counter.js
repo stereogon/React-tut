@@ -19,8 +19,8 @@ class Counter extends Component {
         // );
 
         this.setState(
-            (prevState) => ({
-                count: prevState.count + 1,
+            (prevState, props) => ({
+                count: prevState.count + 1 + props.value,
             }),
             () => {
                 console.log(this.state.count);
@@ -69,7 +69,9 @@ class Counter extends Component {
             <>
                 <h1>Counter Component</h1>
                 <h1>Count - {this.state.count}</h1>
-                <button onClick={() => this.increment_demo()}>Increment</button>
+                <button onClick={() => this.increment_count()}>
+                    Increment
+                </button>
             </>
         );
     }
