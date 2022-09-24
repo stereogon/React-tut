@@ -2,14 +2,16 @@ import "./App.css";
 // import NavbarJsx from "./components/Navbar_jsx";
 // import NavbarClassComponent from "./components/Navbar-classcomponent";
 // import Counter from "./components/Counter";
-import ClickMe from "./components/ClickMe";
-import ClickMeCc from "./components/ClickMeCc";
+// import ClickMe from "./components/ClickMe";
+// import ClickMeCc from "./components/ClickMeCc";
+import Eventbind from "./components/Eventbind";
 
 function App() {
     return (
         <>
-            <ClickMe />
-            <ClickMeCc />
+            <Eventbind />
+            {/* <ClickMe />
+            <ClickMeCc /> */}
             {/* <Counter value={1} /> */}
             {/* <NavbarJsx name="Bruce" heroName="Batman">
                 This is children props
