@@ -5,12 +5,14 @@ import "./App.css";
 // import ClickMe from "./components/ClickMe";
 // import ClickMeCc from "./components/ClickMeCc";
 // import Eventbind from "./components/Eventbind";
-import ParentComponent from "./components/ParentComponent";
+// import ParentComponent from "./components/ParentComponent";
+import UserGreeting from "./components/UserGreeting";
 
 function App() {
     return (
         <>
-            <ParentComponent />
+            <UserGreeting />
+            {/* <ParentComponent /> */}
             {/* <Eventbind /> */}
             {/* <ClickMe />
             <ClickMeCc /> */}
