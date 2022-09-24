@@ -13,11 +13,11 @@ class Eventbind extends Component {
         /* this is considered the best way to do this */
     }
 
-    clickhandler() {
+    clickhandler = () => {
         this.setState({
             message: "Goodbye",
         });
-    }
+    };
 
     render() {
         return (
