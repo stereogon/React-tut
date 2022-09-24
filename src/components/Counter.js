@@ -46,6 +46,10 @@ class Counter extends Component {
     increment_demo() {
         this.increment_one();
         this.increment_two();
+
+        // only the second increment would happen always
+        // because react would merge the two setState functions
+        // and will only run the last one
     }
 
     increment_five() {
