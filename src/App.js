@@ -4,12 +4,14 @@ import "./App.css";
 // import Counter from "./components/Counter";
 // import ClickMe from "./components/ClickMe";
 // import ClickMeCc from "./components/ClickMeCc";
-import Eventbind from "./components/Eventbind";
+// import Eventbind from "./components/Eventbind";
+import ParentComponent from "./components/ParentComponent";
 
 function App() {
     return (
         <>
-            <Eventbind />
+            <ParentComponent />
+            {/* <Eventbind /> */}
             {/* <ClickMe />
             <ClickMeCc /> */}
             {/* <Counter value={1} /> */}
