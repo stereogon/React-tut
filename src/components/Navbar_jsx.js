@@ -1,10 +1,11 @@
-const Hello = (props) => {
+const Hello = ({ name, heroName }) => {
     // props.name = "Chandan" this is not possible
     // props are immutable
+    // const {name, heroName} = props;
     return (
         <div>
-            Hello {props.name} aka {props.heroName}
-            <h1>{props.children}</h1>
+            Hello {name} aka {heroName}
+            <h1>{children}</h1>
         </div>
     );
 };
