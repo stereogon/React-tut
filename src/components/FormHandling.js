@@ -1,5 +1,6 @@
 import { Component } from "react";
 import "./formstyles.css";
+import styles from "./formstyle.module.css";
 
 class FormHandling extends Component {
     constructor() {
@@ -46,7 +47,9 @@ class FormHandling extends Component {
                     className="primary"
                     onSubmit={this.handleFormSubmit}
                 >
-                    <label htmlFor="username">Username</label>
+                    <label className={styles.success} htmlFor="username">
+                        Username
+                    </label>
                     <input
                         type="text"
                         name="username"
