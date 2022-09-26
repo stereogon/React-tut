@@ -8,12 +8,14 @@ import "./App.css";
 // import ParentComponent from "./components/ParentComponent";
 // import UserGreeting from "./components/UserGreeting";
 // import Namelist from "./components/Namelist";
-import PersonList from "./components/PersonList";
+// import PersonList from "./components/PersonList";
+import FormHandling from "./components/FormHandling";
 
 function App() {
     return (
         <>
-            <PersonList />
+            <FormHandling />
+            {/* <PersonList /> */}
             {/* <Namelist /> */}
             {/* <UserGreeting /> */}
             {/* <ParentComponent /> */}
