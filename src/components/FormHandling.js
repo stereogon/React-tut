@@ -1,4 +1,5 @@
 import { Component } from "react";
+import "./formstyles.css";
 
 class FormHandling extends Component {
     constructor() {
@@ -33,9 +34,18 @@ class FormHandling extends Component {
     }
 
     render() {
+        const fontxl = {
+            fontSize: "5rem",
+            fontWeight: "600",
+        };
+
         return (
             <>
-                <form onSubmit={this.handleFormSubmit}>
+                <form
+                    style={fontxl}
+                    className="primary"
+                    onSubmit={this.handleFormSubmit}
+                >
                     <label htmlFor="username">Username</label>
                     <input
                         type="text"
