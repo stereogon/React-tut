@@ -12,13 +12,17 @@ import "./App.css";
 // import FormHandling from "./components/FormHandling";
 import LifeCycleA from "./components/LifeCycleA";
 import PureCom from "./components/PureCom";
+import MemoCom from "./components/MemoCom";
 
 function App() {
     return (
         <>
             <div className="App">
                 <LifeCycleA />
+                <hr />
                 <PureCom />
+                <hr />
+                <MemoCom />
             </div>
             {/* <FormHandling /> */}
             {/* <PersonList /> */}
