@@ -9,12 +9,16 @@ import "./App.css";
 // import UserGreeting from "./components/UserGreeting";
 // import Namelist from "./components/Namelist";
 // import PersonList from "./components/PersonList";
-import FormHandling from "./components/FormHandling";
+// import FormHandling from "./components/FormHandling";
+import LifeCycleA from "./components/LifeCycleA";
 
 function App() {
     return (
         <>
-            <FormHandling />
+            <div className="App">
+                <LifeCycleA />
+            </div>
+            {/* <FormHandling /> */}
             {/* <PersonList /> */}
             {/* <Namelist /> */}
             {/* <UserGreeting /> */}
